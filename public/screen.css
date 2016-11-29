@@ -1,8 +1,22 @@
 html {
-  text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
-  margin: 0;
-  font: 16px / 1 sans-serif;
+    margin: 0;
+    font: 16px / 1 sans-serif;
+
+}
+.proj-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: flex-end;
+}
+.body { 
+    display:flex;
+
+
 }
